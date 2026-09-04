@@ -1,4 +1,4 @@
-# DOSW_ParcialT1_DavidOrtiz
+# DOSW - Parcial de Primer Tercio
 
 ### Diagrama de Contexto - TutoECI
 
@@ -45,13 +45,36 @@ seguir la paleta de colores de la Escuela
 
 1. La plataforma debe permitir seleccionar los horarios libres
    disponibles para los tutores
-   ![Diagram context](docs/images/first_diagram.png)
+   ![First diagram](docs/images/first_diagram.png)
 
 2. El usuario estudiante puede filtrar los tutores
    de su preferencia
-   ![Diagram context](docs/images/second_diagram.png)
+   ![Second diagram](docs/images/second_diagram.png)
 
 ### Planeación Agile
 
 *Plataforma Jira*
+
 https://davidosalcedo.atlassian.net/jira/software/projects/DP/boards/2/timeline?atlOrigin=eyJpIjoiMzc0M2Q1YmYxNzFkNDg2MDg3NWJiNTZkZTY5ZmY1YzEiLCJwIjoiaiJ9
+
+### Diseño de Software y Patrones
+
+**Primer patrón**
+
+* **Nombre**: Factory Method
+* **Tipo de patrón**: Creacional 
+* **Justificación**: Se usará el patrón Factory Method con el fin de construir dos interfaces principales: tutorías y usuarios; por ejemplo para tutorías,
+de manera que, se define para cada tutoria su propio comportamiento (duración, tutor) y para la otra interfaz, qué rol cumple en la plataforma siguiendo 
+el contrato que tenga la interfaz (estudiante de pregrado, docente o estudiante de posgrado)
+
+**Segundo patrón**
+
+* **Nombre**: Command
+* **Tipo de patrón**: Comportamiento
+* **Justificación**: Este patrón se usará con el fin de permitir que las solicitudes que realice
+la plataforma a sistemas externos como Enlace y NotifyMe sobre la validación de materias según su sigla
+o dejar en cola la notificación cuando la sesión esté confirmada. 
+
+**Diagrama de clases**
+
+![Class diagram](docs/images/class_diagram.png)
