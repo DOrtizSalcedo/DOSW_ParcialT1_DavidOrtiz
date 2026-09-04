@@ -35,11 +35,11 @@ seguir la paleta de colores de la Escuela
 | Campo | Descripción                                                                                                                                                                                       |
 |------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **ID** | HU-02                                                                                                                                                                                             |
-| **Título** | Recomendación de Tutor                                                                                                                                                                            |
-| **Descripción** | *Como  estudiante de pregrado, quiero solicitar una tutoría indicando mi preferencia de tutor (profesor o estudiante de posgrado), para que el sistema me asigne el mejor tutor disponible.*      |
+| **Título** | Seleccionar la materia para mi tutoria                                                                                                                                                            |
+| **Descripción** | *Como  estudiante de pregrado, quiero seleccionar la materia con la que tengo dudas, para reservar un horario disponible.*                                                                        |
 | **Prioridad** | Alta                                                                                                                                                                                              |
 | **Justificación** | Además de ser la principal funcionalidad de la plataforma para ofrecerle los servicios a los estudiantes de pregrado, la aplicación permite que el estudiante pueda elegir a su tutor que quiera. |                                                                                                                                                                                            |
-| **Estimación** | 13                                                                                                                                                                                                |
+| **Estimación** | 8                                                                                                                                                                                                 |
 
 ### Diagrama de caso de uso por requerimientos funcionales
 
@@ -50,3 +50,8 @@ seguir la paleta de colores de la Escuela
 2. El usuario estudiante puede filtrar los tutores
    de su preferencia
    ![Diagram context](docs/images/second_diagram.png)
+
+### Planeación Agile
+
+*Plataforma Jira*
+https://davidosalcedo.atlassian.net/jira/software/projects/DP/boards/2/timeline?atlOrigin=eyJpIjoiMzc0M2Q1YmYxNzFkNDg2MDg3NWJiNTZkZTY5ZmY1YzEiLCJwIjoiaiJ9
